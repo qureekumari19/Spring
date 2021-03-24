@@ -67,21 +67,21 @@ public class CashController {
 		return "details";	
 	}		
 	
-	@RequestMapping(value = "/we/{id}" ,method = RequestMethod.GET)
-	public String syhello(@PathVariable String id,Model model)
-	{		
-		model.addAttribute("id",id);
-		return "welcome";    // welcome is jsp page where ${id} variable present
-	}
-	@RequestMapping(value = "/emp" ,method = RequestMethod.GET)
-	public String syhello1(Model model)
-	{	
-		model.addAttribute("emp",new Employee());
-		return "emp";//emp is .jsp file having id name email as input type
-	}
-	@RequestMapping(value = "/emp" ,method = RequestMethod.POST)
-	public String syhello2(@ModelAttribute Employee e,Model model)
-	{				
-		return "redirect:/we/"+e.getId();//emp is .jsp file having id name email as input type
-	}
+//	@RequestMapping(value = "/we/{id}" ,method = RequestMethod.GET)
+//	public String syhello(@PathVariable String id,Model model)
+//	{		
+//		model.addAttribute("id",id);
+//		return "welcome";    // welcome is jsp page where ${id} variable present
+//	}
+//	@RequestMapping(value = "/emp" ,method = RequestMethod.GET)
+//	public String syhello1(Model model)
+//	{	
+//		model.addAttribute("emp",new Employee());
+//		return "emp";//emp is .jsp file having id name email as input type
+//	}
+//	@RequestMapping(value = "/emp" ,method = RequestMethod.POST)
+//	public String syhello2(@ModelAttribute Employee e,Model model)
+//	{				
+//		return "redirect:/we/"+e.getId();//emp is .jsp file having id name email as input type
+//	}
 }
