@@ -1,0 +1,6 @@
+com\psl\config\AppInitialiser.class
+com\psl\controller\BloodBankController.class
+com\psl\entity\BloodDonnerFetch.class
+com\psl\config\SpringMvcConfig.class
+com\psl\service\DonnerService.class
+com\psl\entity\BloodDonnerDetails.class

@@ -1,0 +1,5 @@
+com\psl\config\Config.class
+com\psl\beans\MyProc.class
+com\psl\App.class
+com\psl\beans\Employee.class
+com\psl\beans\TestBean.class
